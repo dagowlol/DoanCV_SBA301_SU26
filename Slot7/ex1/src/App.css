@@ -1,0 +1,13 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 3rem 1.5rem;
+  background: radial-gradient(circle at top right, rgba(170, 59, 255, 0.12), transparent 40%),
+              radial-gradient(circle at bottom left, rgba(192, 132, 252, 0.08), transparent 40%),
+              var(--bg);
+  box-sizing: border-box;
+}
